@@ -95,7 +95,7 @@ function Components(props) {
     <>
       <div className="card">
         <div className="header">
-          <p>{props.cardType}</p>
+          <p className="card_type">{props.cardType}</p>
         </div>
         <div className="price">
           <h1>
